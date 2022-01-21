@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642724947167' stop='1642724971322'>
+    <name>E2E Tests - Homepage to Top movies section</name>
+    <title>E2E Tests - Homepage to Top movies section</title>
+    <test-cases>
+        <test-case start='1642724947167' status='passed' stop='1642724969345'>
+            <name>Should open Top 250 Movies Page after clicking on Top 250 Movies button in Menu-section</name>
+            <title>Should open Top 250 Movies Page after clicking on Top 250 Movies button in Menu-section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642724969346' status='passed' stop='1642724971321'>
+            <name>Should have "The godfather" in the 2nd place with a rating of "9.1"</name>
+            <title>Should have "The godfather" in the 2nd place with a rating of "9.1"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642724947131' stop='1642724985722'>
+    <name>E2E Tests - Top250Movie page - The Dark Knight</name>
+    <title>E2E Tests - Top250Movie page - The Dark Knight</title>
+    <test-cases>
+        <test-case start='1642724947132' status='passed' stop='1642724969469'>
+            <name>Should have listed "The Dark Knight" and by clicking plays its trailer</name>
+            <title>Should have listed "The Dark Knight" and by clicking plays its trailer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1642724969470' status='passed' stop='1642724985721'>
+            <name>Displays The Dark Knight when searching and plays the trailer after clicking</name>
+            <title>Displays The Dark Knight when searching and plays the trailer after clicking</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
